@@ -5,7 +5,7 @@
    Never put a secret or service_role key here. Those belong only in the wearables proxy. */
 window.MYO_CONFIG = window.MYO_CONFIG || {
   supabaseUrl: 'https://bnunlrbinlssvbycrvps.supabase.co',  // e.g. https://your-project.supabase.co
-  supabaseKey: '',  // e.g. sb_publishable_…
+  supabaseKey: 'sb_publishable_2EIezrzPGKsJvwPTHQiIcQ_SMOxUZCi',  // e.g. sb_publishable_…
   wearablesProxy: 'https://bnunlrbinlssvbycrvps.supabase.co/functions/v1/wearables', // e.g. https://your-project.supabase.co/functions/v1/wearables (supabase/WEARABLES_PROXY.md)
   ingestApi: 'https://bnunlrbinlssvbycrvps.supabase.co/functions/v1/ingest'       // e.g. https://your-project.supabase.co/functions/v1/ingest (supabase/INGEST_API.md); defaults to the project's
 };
